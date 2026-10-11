@@ -1,0 +1,37 @@
+{
+  "name": "eshop-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ES6",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "middleware": "^1.0.0",
+    "model": "^0.0.6",
+    "module": "^2.0.0",
+    "mongoose": "^9.11.0",
+    "node-gyp": "^13.1.0",
+    "nodemon": "^1.14.10",
+    "rebuild": "^0.1.2",
+    "routes": "^2.1.0",
+    "server.js": "^1.0.0",
+    "src": "^1.0.0"
+  },
+  "description": "",
+  "allowScripts": {
+    "module@2.0.0": true,
+    "bcrypt@6.0.0": true,
+    "nodemon@1.19.4": true
+  }
+}
